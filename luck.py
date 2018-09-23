@@ -23,7 +23,7 @@ start_html = requests.get(all_url,headers = Hostreferer)
 #保存地址
 path = '/home/lyt/mzitu/'
 some = 25625
-w = "wijfdashabi"
+w = "wijfdashabissbssb"
 #找寻最大页数
 soup = BeautifulSoup(start_html.text,"html.parser")
 page = soup.find_all('a',class_='page-numbers')
